@@ -1,0 +1,48 @@
+1.- Start
+2.- Declaration variables
+	1.- menu = true: boolean 
+	2.- option = 0: int
+	3.- message = "", messageDescode = "", messageEncrypt = "": String
+	4.- messageTwo: char
+3.- do
+	1.- print ("Please, choose an option")
+	2.- print ("1) Write message")
+	3.- print ("2) Read message")
+	4.- print ("3) Exit")
+	5.- read ( option )
+		1.- Switch( option )
+			1.- case 1:
+				1.- read( message )
+				2.- i = 0: int
+				3.- converted message to char array
+				4.- for ( i < length of message; i ++ )
+					1.- convert message to char array
+					2.- message[i] = message[i] + three letters of ANSCI code 
+				5.- End for cicle
+				6.- converted message to String
+				7.- messageEncrypt = message
+				8.- save messageEncrypt
+				9.- break
+			2.- case 2:
+				1.- open the messageEncrypt
+				2.- i = 0: int
+				3.- for( i < length messageEncrypt; i ++ )
+					1.- convert messageEncrypt to char array
+					2.- messageEncrypt[i] = message[i] - three letters of ANSCI code
+				4.- End for cicle
+				5.- converted messageEncrypt to String
+				6.- messageDescode = messageEncrypt
+				7.- print ( messageDescode )
+				8.- break
+			3.- case 3:
+				1.- menu = false
+				2.- break
+			4.- default:
+				1.- print ("Please, selected a correct option")
+				2.- break
+		2.- End switch
+4.- while( menu == true  )
+5.- print("good bye")
+6.- end
+				
+				
