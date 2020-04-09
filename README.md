@@ -5,7 +5,7 @@ decode in the same app.
 
 ## Getting Starter
 You can run this app as a simple Java app. 
-Inside the folder "src" you could find
+You can find
 TestLetter.java file that contain main
 method. Run this.
 
